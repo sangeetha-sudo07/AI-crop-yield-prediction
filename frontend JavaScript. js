@@ -1,1 +1,28 @@
 
+function predictYield(){
+
+    let crop =
+    document.getElementById("crop").value;
+
+    let rainfall =
+    Number(document.getElementById("rainfall").value);
+
+    let soil =
+    Number(document.getElementById("soil").value);
+
+    let output = "";
+
+    if(rainfall > 1000 && soil >= 7){
+        output = "High Yield Expected";
+    }
+    else if(rainfall >= 700 && soil >= 5){
+        output = "Medium Yield Expected";
+    }
+    else{
+        output = "Low Yield Expected";
+    }
+
+    document.getElementById("result").innerHTML =
+    "Crop: " + crop +
+    "<br>Prediction: " + output;
+}
