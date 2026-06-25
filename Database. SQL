@@ -1,1 +1,23 @@
+CREATE TABLE crop_data (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    crop_name TEXT NOT NULL,
+    rainfall INTEGER,
+    temperature INTEGER,
+    soil_fertility INTEGER,
+    predicted_yield TEXT
+);
 
+INSERT INTO crop_data
+(crop_name, rainfall, temperature, soil_fertility, predicted_yield)
+VALUES
+('Rice', 1200, 30, 8, 'High Yield');
+
+INSERT INTO crop_data
+(crop_name, rainfall, temperature, soil_fertility, predicted_yield)
+VALUES
+('Wheat', 800, 25, 6, 'Medium Yield');
+
+INSERT INTO crop_data
+(crop_name, rainfall, temperature, soil_fertility, predicted_yield)
+VALUES
+('Millet', 500, 35, 4, 'Low Yield');
