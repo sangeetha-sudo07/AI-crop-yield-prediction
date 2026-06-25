@@ -85,10 +85,10 @@ function predictYield(){
 
     let output = "";
 
-    if(rainfall > 1000 && soil >= 7){
+    if(rainfall > 1000 && temperature<= 45 && soil >= 7){
         output = "High Yield Expected";
     }
-    else if(rainfall >= 700 && soil >= 5){
+    else if(rainfall >= 700 && temperature<= 60 && soil >= 5){
         output = "Medium Yield Expected";
     }
     else{
