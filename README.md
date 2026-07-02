@@ -83,3 +83,7 @@ Future Enhancements
 Conclusion
 
 The AI-Powered Crop Yield Prediction and Optimization project provides a simple solution for predicting crop yield using agricultural parameters. It demonstrates the integration of frontend, backend, and database components in a practical agricultural application.
+
+
+OUTPUT LINK 🔗:
+https://sangeetha-sudo07.github.io/AI-crop-yield-prediction/
